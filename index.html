@@ -13,14 +13,14 @@
 </head>
 
 <body>
-    <nav class="navbar center ">
+    <nav class="navbar center sticky ">
         <a href="#" class="navbar-link">Home</a>
         <a href="#" class="navbar-link">Portfolio</a>
         <a href="#" class="navbar-link">Contact</a>
     </nav>
     <div class="container"> 
         <!--Section 1-->
-        <div class="section-1 center" id="section-1">
+        <section class="section-1 center" id="section-1">
                  <div class="section-1-column">
                     <h1 class="section-1-heading section-1-left">
                         Web Developer
@@ -36,13 +36,13 @@
                     <h2 class="section-1-about"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quam molestiae culpa nisi saepe nesciunt hic pariatur, voluptatem quidem fuga quasi tempore voluptatum? Ducimus molestias non in tempore sequi iusto?                       
                     </h2>
                  </div>
-        </div>
+            </section>
         <!-- End of Section 1-->
 
-        <!--section 3-->
-        <section class="section-3" id="section-3">
+        <!--Section 2-->
+        <section class="section-2" id="section-2">
             <h1 class="section-heading 
-            section-3-heading">My Projects</h1>
+            section-2-heading">My Projects</h1>
             <div class="projects-wrapper center">
                 <div class="project">
                     <div class="project-text">
@@ -87,20 +87,49 @@
 
             </div>
         </section>
-        <!-- End of section 3-->
+        <!-- End of section 2-->
+
+        <!-- Section 3 -->
+        <section class="section-3" id="section-3">
+            <h1 class="section-heading
+            section-3-heading" > Contact Me</h1>
+            <form action="https://formspree.io/mbjzewzo" method="POST" class="contact-form center">
+                <input type="text" placeholder="Name" required>
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Type your message" required></textarea>
+                <input type="submit" value="Submit" 
+                class="contact-form-btn" />
+            </form>
+        </section>
+        <!-- End of Section 3-->
 
         <!-- Section 4-->
-        <section class="section-4" id="section-4">
-            <h1 class="section-heading
-            section-4-heading" > Contact Me</h1>
-
-        </section>
-        <!-- End of section 3-->
-
+        <footer class="section-4 center">
+            <div class="social-media">
+                <a href="#" class="social-media-link">
+                    <i class="fab 
+                    fa-linkedin"></i>
+                </a>
+                <a href="#" class="social-media-link">
+                    <i class="fab 
+                    fa-github-square"></i>
+                </a>
+                <a href="#" class="social-media-link">
+                    <i class="fab 
+                    fa-twitter-square"></i>
+                </a>
+            </div>
+            <p class="copyright">
+                Copyright &copy; Alex Paratore.
+                All Rights Reserved
+            </p>
+        </footer>
+        <!-- End of Section 4-->
 
     </div>
 
-    <script>src = "script.js"</script>
+    <script src = "script.js"></script>
 </body>
 
 </html>
