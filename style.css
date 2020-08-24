@@ -111,11 +111,10 @@ html {
 
 .section-1-about {
     width: 80%;
-    font-size: 3rem;
+    font-size: 1.8rem;
     background-color: #eef;
     border: .3rem solid #333;
     padding: .5rem 1rem;
-    transform: skew(-10deg);
 }
 /* End of Section 1 */
 
@@ -321,6 +320,9 @@ html {
     margin-bottom: 5rem;
 }
 
+.social-media2{
+    margin-bottom: 5rem;
+}
 .social-media-link{
     margin: 0 2rem;
     padding: .7rem;
