@@ -276,7 +276,7 @@ html {
     margin-bottom: 5rem;
 }
 .contact-form{
-    width: 50rem;
+    width: 50%;
     flex-direction: column;
 }
 
@@ -369,14 +369,6 @@ html {
    }
 
 }
-
-@media (max-width: 630px) {
-    
-    .section-1-heading{
-        font-size: 2rem;
-    }
- }
-
  @media (max-width: 630px) {
     
     .section-1-heading{
@@ -386,7 +378,7 @@ html {
 
  @media (max-width: 500px) {
     html {
-        font-size: 55%;
+        font-size: 50%;
     }
  }
 
@@ -398,22 +390,15 @@ html {
 
  @media (max-width: 360px) {
 
-   .section-1-heading{
-       font-size: 1.8rem;
-   }
-    .contact-form{
-        width: 35rem;
-    }
-    .project-img{
-        width: 35rem;
-        height: 35rem;
+    html {
+        font-size: 40%;
     }
 
  }
 
  @media (max-width: 330px) {
     html {
-        font-size: 40%;
+        font-size: 35%;
     }
  
   }
@@ -422,7 +407,16 @@ html {
     html {
         font-size: 35%;
     }
+    .section-1-heading{
+        font-size: 1.5rem;
+    }
  
   }
+
+  @media (max-width: 250px) {
+    html {
+        font-size: 25%;
+    }
+
 
 /* Responsive */
