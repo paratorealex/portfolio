@@ -372,7 +372,8 @@ html {
  @media (max-width: 630px) {
     
     .section-1-heading{
-        font-size: 1.5rem;
+        font-size: 2rem;
+
     }
  }
 
@@ -382,13 +383,7 @@ html {
     }
  }
 
- @media (max-width: 450px) {
-    html {
-        font-size: 45%;
-    }
- }
-
- @media (max-width: 360px) {
+ @media (max-width: 400px) {
 
     html {
         font-size: 40%;
@@ -396,7 +391,7 @@ html {
 
  }
 
- @media (max-width: 330px) {
+ @media (max-width: 320px) {
     html {
         font-size: 35%;
     }
@@ -407,17 +402,24 @@ html {
     html {
         font-size: 35%;
     }
-    .section-1-heading{
-        font-size: 1rem;
-    }
- 
   }
 
-  @media (max-width: 250px) {
+  @media (max-width: 280px) {
     html {
-        font-size: 25%;
+        font-size: 30%;
     }
-    
+}
+
+    @media (max-width: 240px) {
+        html {
+            font-size: 25%;
+        }
+    }
+        @media (max-width: 210px) {
+            html {
+                font-size: 20%;
+            }
+        }
 
 
 /* Responsive */
