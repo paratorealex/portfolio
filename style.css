@@ -396,4 +396,19 @@ html {
     }
  }
 
+ @media (max-width: 360px) {
+
+   .section-1-heading{
+       font-size: 1.8rem;
+   }
+    .contact-form{
+        width: 40rem;
+    }
+    .project-img{
+        width: 35rem;
+        height: 35rem;
+    }
+
+ }
+
 /* Responsive */
