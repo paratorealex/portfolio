@@ -372,7 +372,7 @@ html {
  @media (max-width: 630px) {
     
     .section-1-heading{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
  }
 
@@ -408,7 +408,7 @@ html {
         font-size: 35%;
     }
     .section-1-heading{
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
  
   }
@@ -417,9 +417,7 @@ html {
     html {
         font-size: 25%;
     }
-    .section-1-heading{
-        font-size: 1rem;
-    }
+    
 
 
 /* Responsive */
