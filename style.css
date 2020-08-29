@@ -402,7 +402,7 @@ html {
        font-size: 1.8rem;
    }
     .contact-form{
-        width: 40rem;
+        width: 35rem;
     }
     .project-img{
         width: 35rem;
@@ -410,5 +410,19 @@ html {
     }
 
  }
+
+ @media (max-width: 330px) {
+    html {
+        font-size: 40%;
+    }
+ 
+  }
+
+  @media (max-width: 305px) {
+    html {
+        font-size: 35%;
+    }
+ 
+  }
 
 /* Responsive */
